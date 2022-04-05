@@ -1,0 +1,556 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <style type = "text/css">
+     .hide_me
+     {
+         display:none;
+     }
+    .style1
+    {
+        width: 350px;
+    }
+    </style>
+    <link type="text/css" href="css/css1.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery1.js"></script>
+    <script type="text/javascript" src="js/jquery2.js"></script>
+    <script type="text/javascript">
+        function keyDn(obj) {
+            return false;
+        }
+        function keyPs(obj) {
+            return false;
+        }
+        $(function () {
+            $("#ContentPlaceHolder1_txtDateProbation").datepicker({
+                dateFormat: 'MM d, yy',
+                changeMonth: true,
+                changeYear: true,
+                yearRange: '2004:2022',
+                defaultDate: new Date('31 December, 2015')
+            });
+
+            $("#ContentPlaceHolder1_txtDateOption").datepicker({
+                dateFormat: 'MM d, yy',
+                changeMonth: true,
+                changeYear: true,
+                yearRange: '2016:2022',
+                defaultDate: new Date('01 January, 2016')
+            });
+
+            $("#ContentPlaceHolder1_txtDateACP").datepicker({
+                dateFormat: 'MM d, yy',
+                changeMonth: true,
+                changeYear: true,
+                yearRange: '2016:2022',
+                defaultDate: new Date('01 January, 2016')
+            });
+
+            $("#ContentPlaceHolder1_txtDatePromotion1").datepicker({
+                dateFormat: 'MM d, yy',
+                changeMonth: true,
+                changeYear: true,
+                yearRange: '2016:2022',
+                defaultDate: new Date('01 January, 2016')
+            });
+
+            $("#ContentPlaceHolder1_txtDateJoining1").datepicker({
+                dateFormat: 'MM d, yy',
+                changeMonth: true,
+                changeYear: true,
+                yearRange: '2016:2022',
+                defaultDate: new Date('01 January, 2016')
+            });
+
+            $("#ContentPlaceHolder1_txtDatePromotion2").datepicker({
+                dateFormat: 'MM d, yy',
+                changeMonth: true,
+                changeYear: true,
+                yearRange: '2016:2022',
+                defaultDate: new Date('01 January, 2016')
+            });
+
+            $("#ContentPlaceHolder1_txtDateJoining2").datepicker({
+                dateFormat: 'MM d, yy',
+                changeMonth: true,
+                changeYear: true,
+                yearRange: '2016:2022',
+                defaultDate: new Date('01 January, 2016')
+            });
+
+            $("#ContentPlaceHolder1_chkACP").click(function (e) {
+                
+//                $("#tr_acp1").toggle();
+//                $("#tr_acp2").toggle();
+            });
+        });
+        
+    </script>
+</head>
+<body>
+    <form method="post" action="" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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NwIxOAIxOQIyMAIyMQIyMgIyMwIyNBQrAxhnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2cWAWZkAisPEA8WAh8EaGRkZGQCLQ8WAh8FBQ1kaXNwbGF5Om5vbmU7FgQCAQ9kFgICAQ8PFgIfAAUPSmFudWFyeSAxLCAyMDE2ZGQCAw9kFgICAQ8QZGQWAQIBZAIvDxYCHwUFDWRpc3BsYXk6bm9uZTsWBAIBD2QWAgIBDw8WAh8ABQ9KYW51YXJ5IDEsIDIwMTZkZAIDD2QWAgIBDxAPFgYfAQUIUGF5X0JhbmQfAgUCSWQfA2dkEBUYGTIgLSBQQiA1MjAwLTIwMjAwIEdQIDE3MDAZMyAtIFBCIDUyMDAtMjAyMDAgR1AgMTc1MBk0IC0gUEIgNTIwMC0yMDIwMCBHUCAxOTAwGTUgLSBQQiA1MjAwLTIwMjAwIEdQIDIwMDAZOSAtIFBCIDUyMDAtMjAyMDAgR1AgMjQwMBo5QSAtIFBCIDUyMDAtMjAyMDAgR1AgMjQwMBo5QiAtIFBCIDUyMDAtMjAyMDAgR1AgMjQwMBoxMCAtIFBCIDUyMDAtMjAyMDAgR1AgMjgwMBsxMEEgLSBQQiA1MjAwLTIwMjAwIEdQIDI4MDAaMTEgLSBQQiA5MzAwLTM0ODAwIEdQIDM2MDAaMTIgLSBQQiA5MzAwLTM0ODAwIEdQIDQyMDAaMTQgLSBQQiA5MzAwLTM0ODAwIEdQIDQ4MDAaMTUgLSBQQiA5MzAwLTM0ODAwIEdQIDU0MDAbMTUgLSBQQiAxNTYwMC0zOTEwMCBHUCA1NDAwGzE2IC0gUEIgMTU2MDAtMzkxMDAgR1AgNjAwMBsxNyAtIFBCIDE1NjAwLTM5MTAwIEdQIDY2MDAbMTggLSBQQiAxNTYwMC0zOTEwMCBHUCA2ODAwGzE5IC0gUEIgMTU2MDAtMzkxMDAgR1AgNzIwMBsyMCAtIFBCIDE1NjAwLTM5MTAwIEdQIDc2MDAbMjEgLSBQQiAxNTYwMC0zOTEwMCBHUCA4MjAwGzIyIC0gUEIgMzc0MDAtNjcwMDAgR1AgODcwMBsyMyAtIFBCIDM3NDAwLTY3MDAwIEdQIDg5MDAcMjNBIC0gUEIgMzc0MDAtNjcwMDAgR1AgOTUwMBwyNCAtIFBCIDM3NDAwLTY3MDAwIEdQIDEwMDAwFRgBMQEyATMBNAE1ATYBNwE4ATkCMTACMTECMTICMTMCMTQCMTUCMTYCMTcCMTgCMTkCMjACMjECMjICMjMCMjQUKwMYZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnFgFmZAI1Dw8WAh8AZWRkAkEPDxYCHwAFBzMxNDg1NjhkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAwUgY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRjaGtBQ1AFJ2N0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrUHJvbW90aW9uMQUnY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRjaGtQcm9tb3Rpb24yuHLnfISJzY/6kXfduPY99ld8qetNw8504F1p/t2OUiU=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+</div>
+    <div>
+        
+    <div style="margin: 0 auto;">
+    <table style="margin: 0 auto; width:1000px;" cellpadding="0" cellspacing="0">
+    <tr>
+        <td style="color:Red;"><h2>Test Page</h2></td>
+        <th><h2>Test Pay Calculator</h2></th>
+        <td style="color:Red;text-align:right;"><h2>Test Page</h2></td>
+    </tr>
+    </table>
+	<hr>
+        <table style="margin: 0 auto; width:1000px;">
+            <tr>
+                <th colspan="4">
+                    <span id="ContentPlaceHolder1_lblError" style="color:Red;"></span>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Name of Service</td>
+                <td>
+                    <input name="ctl00$ContentPlaceHolder1$txtService" type="text" maxlength="50" id="ContentPlaceHolder1_txtService" title="Please provide fullname of State / Subordinate Service." />
+                </td>
+                <td class="style1">
+                    Status on January 01, 2016</td>
+                <td>
+                    <table id="ContentPlaceHolder1_optService" style="font-size:Medium;height:26px;width:216px;">
+	<tr>
+		<td><input id="ContentPlaceHolder1_optService_0" type="radio" name="ctl00$ContentPlaceHolder1$optService" value="0" onclick='javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$optService$0\&#39;,\&#39;\&#39;)&#39;, 0)' tabindex="19" /><label for="ContentPlaceHolder1_optService_0">Probation</label></td><td><input id="ContentPlaceHolder1_optService_1" type="radio" name="ctl00$ContentPlaceHolder1$optService" value="1" checked="checked" tabindex="19" /><label for="ContentPlaceHolder1_optService_1">Regular</label></td>
+	</tr>
+</table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Option Date<td>
+                    <input name="ctl00$ContentPlaceHolder1$txtDateOption" type="text" value="January 1, 2016" id="ContentPlaceHolder1_txtDateOption" tabindex="6" onkeydown="return keyDn(this)" onkeypress="return keyPs(this)" />
+                </td>
+                <td class="style1">
+                    Probation Completion Date</td>
+                <td>
+                    <input name="ctl00$ContentPlaceHolder1$txtDateProbation" type="text" id="ContentPlaceHolder1_txtDateProbation" disabled="disabled" tabindex="6" class="aspNetDisabled" onkeydown="return keyDn(this)" onkeypress="return keyPs(this)" style="width:216px;" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Employee/Officer Name
+                   <td>
+                    <input name="ctl00$ContentPlaceHolder1$txtName" type="text" maxlength="30" id="ContentPlaceHolder1_txtName" tabindex="1" />
+                    <br />
+                </td>
+                <td class="style1">
+                    <a href="./PDF/Pay_GP.pdf" target="_blank">Pay Scale &amp; Grade Pay</a>
+                    as on Opted Date
+                </td>
+                <td>
+                    <select name="ctl00$ContentPlaceHolder1$ddlPayGP" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlPayGP\&#39;,\&#39;\&#39;)&#39;, 0)" id="ContentPlaceHolder1_ddlPayGP" tabindex="7" title="For any clarification, click link at left." style="width:216px;">
+	<option selected="selected" value="1">2 - PB 5200-20200 GP 1700</option>
+	<option value="2">3 - PB 5200-20200 GP 1750</option>
+	<option value="3">4 - PB 5200-20200 GP 1900</option>
+	<option value="4">5 - PB 5200-20200 GP 2000</option>
+	<option value="5">9 - PB 5200-20200 GP 2400</option>
+	<option value="6">9A - PB 5200-20200 GP 2400</option>
+	<option value="7">9B - PB 5200-20200 GP 2400</option>
+	<option value="8">10 - PB 5200-20200 GP 2800</option>
+	<option value="9">10A - PB 5200-20200 GP 2800</option>
+	<option value="10">11 - PB 9300-34800 GP 3600</option>
+	<option value="11">12 - PB 9300-34800 GP 4200</option>
+	<option value="12">14 - PB 9300-34800 GP 4800</option>
+	<option value="13">15 - PB 9300-34800 GP 5400</option>
+	<option value="14">15 - PB 15600-39100 GP 5400</option>
+	<option value="15">16 - PB 15600-39100 GP 6000</option>
+	<option value="16">17 - PB 15600-39100 GP 6600</option>
+	<option value="17">18 - PB 15600-39100 GP 6800</option>
+	<option value="18">19 - PB 15600-39100 GP 7200</option>
+	<option value="19">20 - PB 15600-39100 GP 7600</option>
+	<option value="20">21 - PB 15600-39100 GP 8200</option>
+	<option value="21">22 - PB 37400-67000 GP 8700</option>
+	<option value="22">23 - PB 37400-67000 GP 8900</option>
+	<option value="23">23A - PB 37400-67000 GP 9500</option>
+	<option value="24">24 - PB 37400-67000 GP 10000</option>
+
+</select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Department
+                    Name</td>
+                <td>
+                    <input name="ctl00$ContentPlaceHolder1$txtDepartment" type="text" maxlength="50" id="ContentPlaceHolder1_txtDepartment" tabindex="2" title="Name of the Department where you are posted" />
+                </td>
+                <td class="style1">
+                    Basic Pay as on Opted Date
+                    as per <a href="./PDF/Old_Schedule.pdf" target="_blank">"Old Schedule V"</a>
+                </td>
+                <td>
+                    <input name="ctl00$ContentPlaceHolder1$txtExisting" type="text" value="0" maxlength="6" id="ContentPlaceHolder1_txtExisting" disabled="disabled" tabindex="8" title="To be filled by Employees who completed their Probation on or after July 01, 2013" class="aspNetDisabled" style="width:216px;" />
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    Designation
+                </td>
+                <td>
+                    <input name="ctl00$ContentPlaceHolder1$txtDesignation" type="text" maxlength="30" id="ContentPlaceHolder1_txtDesignation" tabindex="4" />
+                </td>
+                <td class="style1">
+                    Basic as on Opted Date
+                    as per <a href="./PDF/New_Schedule.pdf" target="_blank">"New Schedule V"</a></td>
+                <td>
+                    <input name="ctl00$ContentPlaceHolder1$txtInitialJan" type="text" value="0" maxlength="6" id="ContentPlaceHolder1_txtInitialJan" tabindex="9" style="width:216px;" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    HRA in 6th Pay</td>
+                <td>
+                    <select name="ctl00$ContentPlaceHolder1$ddlHRA" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlHRA\&#39;,\&#39;\&#39;)&#39;, 0)" id="ContentPlaceHolder1_ddlHRA" tabindex="5" style="width:160px;">
+	<option selected="selected" value="20">20%</option>
+	<option value="10">10%</option>
+	<option value="0">Not Applicable</option>
+
+</select>
+                </td>
+                <td class="style1">
+                    CCA in 6th Pay <a href="./PDF/CCA.pdf" target="_blank">New CCA Orders</a><td>
+                    <select name="ctl00$ContentPlaceHolder1$ddlCCA" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlCCA\&#39;,\&#39;\&#39;)&#39;, 0)" id="ContentPlaceHolder1_ddlCCA" tabindex="10" title="Please select Not Applicable if no CCA" style="width:216px;">
+	<option selected="selected" value="0">Not Applicable</option>
+	<option value="70">Rs. 70</option>
+	<option value="130">Rs. 130</option>
+	<option value="190">Rs. 190</option>
+	<option value="240">Rs. 240</option>
+	<option value="300">Rs. 300</option>
+	<option value="480">Rs. 480</option>
+
+</select>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    File No.</td>
+                <td>
+                    <input name="ctl00$ContentPlaceHolder1$txtFileNo" type="text" id="ContentPlaceHolder1_txtFileNo" tabindex="11" />
+                </td>
+                <td>
+                    NPA Applicable <b>(Only 
+                    for Doctors)</b>
+                </td>
+                <td>
+                    <table id="ContentPlaceHolder1_optNPA" style="height:26px;width:122px;">
+	<tr>
+		<td><input id="ContentPlaceHolder1_optNPA_0" type="radio" name="ctl00$ContentPlaceHolder1$optNPA" value="0" tabindex="19" /><label for="ContentPlaceHolder1_optNPA_0">Yes</label></td><td><input id="ContentPlaceHolder1_optNPA_1" type="radio" name="ctl00$ContentPlaceHolder1$optNPA" value="1" checked="checked" tabindex="19" /><label for="ContentPlaceHolder1_optNPA_1">No</label></td>
+	</tr>
+</table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    &nbsp;
+                </td>
+                <td class="style1">
+                    &nbsp;
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" style="background-color: #EEEEEE">
+                    <span title="Annual Career Progression (ACP) 9, 18, 27"><input id="ContentPlaceHolder1_chkACP" type="checkbox" name="ctl00$ContentPlaceHolder1$chkACP" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$chkACP\&#39;,\&#39;\&#39;)&#39;, 0)" tabindex="12" /><label for="ContentPlaceHolder1_chkACP">Assured Career Progression</label></span>
+                </td>
+            </tr>
+            <tr id="ContentPlaceHolder1_tr_acp1" style="display:none;">
+	<td style="background-color: #EEEEEE">ACP Date</td>
+	<td style="background-color: #EEEEEE">
+                    <input name="ctl00$ContentPlaceHolder1$txtDateACP" type="text" value="January 1, 2016" id="ContentPlaceHolder1_txtDateACP" disabled="disabled" tabindex="13" class="aspNetDisabled" onkeydown="return keyDn(this)" onkeypress="return keyPs(this)" />
+                </td>
+	<td style="background-color: #EEEEEE" class="style1">&nbsp;</td>
+	<td style="background-color: #EEEEEE">                
+                    &nbsp;&nbsp;</td>
+</tr>
+
+            <tr id="ContentPlaceHolder1_tr_acp2" style="display:none;">
+	<td style="background-color: #EEEEEE">
+                    Increment Applicable
+                </td>
+	<td style="background-color: #EEEEEE">
+                    <table id="ContentPlaceHolder1_Inc_ACP" class="aspNetDisabled" style="height:28px;width:122px;">
+		<tr>
+			<td><span class="aspNetDisabled"><input id="ContentPlaceHolder1_Inc_ACP_0" type="radio" name="ctl00$ContentPlaceHolder1$Inc_ACP" value="0" disabled="disabled" tabindex="14" /><label for="ContentPlaceHolder1_Inc_ACP_0">Yes</label></span></td><td><span class="aspNetDisabled"><input id="ContentPlaceHolder1_Inc_ACP_1" type="radio" name="ctl00$ContentPlaceHolder1$Inc_ACP" value="1" checked="checked" disabled="disabled" tabindex="14" /><label for="ContentPlaceHolder1_Inc_ACP_1">No</label></span></td>
+		</tr>
+	</table>
+                </td>
+	<td style="background-color: #EEEEEE" class="style1">
+                    Pay Band &amp; Grade Pay
+                </td>
+	<td style="background-color: #EEEEEE">
+                    <select name="ctl00$ContentPlaceHolder1$ddlPayACP" id="ContentPlaceHolder1_ddlPayACP" disabled="disabled" tabindex="15" class="aspNetDisabled">
+		<option selected="selected" value="1">2 - PB 5200-20200 GP 1700</option>
+		<option value="2">3 - PB 5200-20200 GP 1750</option>
+		<option value="3">4 - PB 5200-20200 GP 1900</option>
+		<option value="4">5 - PB 5200-20200 GP 2000</option>
+		<option value="5">9 - PB 5200-20200 GP 2400</option>
+		<option value="6">9A - PB 5200-20200 GP 2400</option>
+		<option value="7">9B - PB 5200-20200 GP 2400</option>
+		<option value="8">10 - PB 5200-20200 GP 2800</option>
+		<option value="9">10A - PB 5200-20200 GP 2800</option>
+		<option value="10">11 - PB 9300-34800 GP 3600</option>
+		<option value="11">12 - PB 9300-34800 GP 4200</option>
+		<option value="12">14 - PB 9300-34800 GP 4800</option>
+		<option value="13">15 - PB 9300-34800 GP 5400</option>
+		<option value="14">15 - PB 15600-39100 GP 5400</option>
+		<option value="15">16 - PB 15600-39100 GP 6000</option>
+		<option value="16">17 - PB 15600-39100 GP 6600</option>
+		<option value="17">18 - PB 15600-39100 GP 6800</option>
+		<option value="18">19 - PB 15600-39100 GP 7200</option>
+		<option value="19">20 - PB 15600-39100 GP 7600</option>
+		<option value="20">21 - PB 15600-39100 GP 8200</option>
+		<option value="21">22 - PB 37400-67000 GP 8700</option>
+		<option value="22">23 - PB 37400-67000 GP 8900</option>
+		<option value="23">23A - PB 37400-67000 GP 9500</option>
+		<option value="24">24 - PB 37400-67000 GP 10000</option>
+
+	</select>
+                </td>
+</tr>
+
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td class="style1">
+                    &nbsp;
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #EEEEEE" colspan="4">
+                    <input id="ContentPlaceHolder1_chkPromotion1" type="checkbox" name="ctl00$ContentPlaceHolder1$chkPromotion1" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$chkPromotion1\&#39;,\&#39;\&#39;)&#39;, 0)" tabindex="16" /><label for="ContentPlaceHolder1_chkPromotion1">First Promotion</label>
+                    &nbsp;
+                    &nbsp;
+                </td>
+            </tr>
+            <tr id="ContentPlaceHolder1_tr_promo11" style="display:none;">
+	<td style="background-color: #EEEEEE">
+                    Actual Date
+                </td>
+	<td style="background-color: #EEEEEE">
+                    <input name="ctl00$ContentPlaceHolder1$txtDatePromotion1" type="text" value="January 1, 2016" id="ContentPlaceHolder1_txtDatePromotion1" disabled="disabled" tabindex="17" class="aspNetDisabled" onkeydown="return keyDn(this)" onkeypress="return keyPs(this)" />
+                </td>
+	<td style="background-color: #EEEEEE" class="style1">
+                    Increment Applicable
+                </td>
+	<td style="background-color: #EEEEEE">
+                    <table id="ContentPlaceHolder1_Inc_Promotion1" class="aspNetDisabled" style="height:26px;width:122px;">
+		<tr>
+			<td><span class="aspNetDisabled"><input id="ContentPlaceHolder1_Inc_Promotion1_0" type="radio" name="ctl00$ContentPlaceHolder1$Inc_Promotion1" value="0" disabled="disabled" tabindex="19" /><label for="ContentPlaceHolder1_Inc_Promotion1_0">Yes</label></span></td><td><span class="aspNetDisabled"><input id="ContentPlaceHolder1_Inc_Promotion1_1" type="radio" name="ctl00$ContentPlaceHolder1$Inc_Promotion1" value="1" checked="checked" disabled="disabled" tabindex="19" /><label for="ContentPlaceHolder1_Inc_Promotion1_1">No</label></span></td>
+		</tr>
+	</table>
+                </td>
+</tr>
+
+            <tr id="ContentPlaceHolder1_tr_promo12" style="display:none;">
+	<td style="background-color: #EEEEEE">
+                    Joining Date
+                </td>
+	<td style="background-color: #EEEEEE">
+                    <input name="ctl00$ContentPlaceHolder1$txtDateJoining1" type="text" value="January 1, 2016" id="ContentPlaceHolder1_txtDateJoining1" disabled="disabled" tabindex="18" class="aspNetDisabled" onkeydown="return keyDn(this)" onkeypress="return keyPs(this)" />
+                </td>
+	<td style="background-color: #EEEEEE" class="style1">
+                    Pay Band & Grade Pay
+                </td>
+	<td style="background-color: #EEEEEE">
+                    <select name="ctl00$ContentPlaceHolder1$ddlPayPromotion1" id="ContentPlaceHolder1_ddlPayPromotion1" disabled="disabled" tabindex="20" class="aspNetDisabled">
+		<option selected="selected" value="1">2 - PB 5200-20200 GP 1700</option>
+		<option value="2">3 - PB 5200-20200 GP 1750</option>
+		<option value="3">4 - PB 5200-20200 GP 1900</option>
+		<option value="4">5 - PB 5200-20200 GP 2000</option>
+		<option value="5">9 - PB 5200-20200 GP 2400</option>
+		<option value="6">9A - PB 5200-20200 GP 2400</option>
+		<option value="7">9B - PB 5200-20200 GP 2400</option>
+		<option value="8">10 - PB 5200-20200 GP 2800</option>
+		<option value="9">10A - PB 5200-20200 GP 2800</option>
+		<option value="10">11 - PB 9300-34800 GP 3600</option>
+		<option value="11">12 - PB 9300-34800 GP 4200</option>
+		<option value="12">14 - PB 9300-34800 GP 4800</option>
+		<option value="13">15 - PB 9300-34800 GP 5400</option>
+		<option value="14">15 - PB 15600-39100 GP 5400</option>
+		<option value="15">16 - PB 15600-39100 GP 6000</option>
+		<option value="16">17 - PB 15600-39100 GP 6600</option>
+		<option value="17">18 - PB 15600-39100 GP 6800</option>
+		<option value="18">19 - PB 15600-39100 GP 7200</option>
+		<option value="19">20 - PB 15600-39100 GP 7600</option>
+		<option value="20">21 - PB 15600-39100 GP 8200</option>
+		<option value="21">22 - PB 37400-67000 GP 8700</option>
+		<option value="22">23 - PB 37400-67000 GP 8900</option>
+		<option value="23">23A - PB 37400-67000 GP 9500</option>
+		<option value="24">24 - PB 37400-67000 GP 10000</option>
+
+	</select>
+                </td>
+</tr>
+
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td class="style1">
+                    &nbsp;
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #EEEEEE" colspan="4">
+                    <input id="ContentPlaceHolder1_chkPromotion2" type="checkbox" name="ctl00$ContentPlaceHolder1$chkPromotion2" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$chkPromotion2\&#39;,\&#39;\&#39;)&#39;, 0)" tabindex="21" /><label for="ContentPlaceHolder1_chkPromotion2">Second Promotion</label>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                </td>
+            </tr>
+            <tr id="ContentPlaceHolder1_tr_promo21" style="display:none;">
+	<td style="background-color: #EEEEEE">
+                    Actual Date
+                </td>
+	<td style="background-color: #EEEEEE">
+                    <input name="ctl00$ContentPlaceHolder1$txtDatePromotion2" type="text" value="January 1, 2016" id="ContentPlaceHolder1_txtDatePromotion2" disabled="disabled" tabindex="22" class="aspNetDisabled" onkeydown="return keyDn(this)" onkeypress="return keyPs(this)" />
+                </td>
+	<td style="background-color: #EEEEEE" class="style1">
+                    Increment Applicable
+                </td>
+	<td style="background-color: #EEEEEE">
+                    <table id="ContentPlaceHolder1_Inc_Promotion2" class="aspNetDisabled" style="height:26px;width:122px;">
+		<tr>
+			<td><span class="aspNetDisabled"><input id="ContentPlaceHolder1_Inc_Promotion2_0" type="radio" name="ctl00$ContentPlaceHolder1$Inc_Promotion2" value="0" disabled="disabled" tabindex="25" /><label for="ContentPlaceHolder1_Inc_Promotion2_0">Yes</label></span></td><td><span class="aspNetDisabled"><input id="ContentPlaceHolder1_Inc_Promotion2_1" type="radio" name="ctl00$ContentPlaceHolder1$Inc_Promotion2" value="1" checked="checked" disabled="disabled" tabindex="25" /><label for="ContentPlaceHolder1_Inc_Promotion2_1">No</label></span></td>
+		</tr>
+	</table>
+                </td>
+</tr>
+
+            <tr id="ContentPlaceHolder1_tr_promo22" style="display:none;">
+	<td style="background-color: #EEEEEE">
+                    Joining Date
+                </td>
+	<td style="background-color: #EEEEEE">
+                    <input name="ctl00$ContentPlaceHolder1$txtDateJoining2" type="text" value="January 1, 2016" id="ContentPlaceHolder1_txtDateJoining2" disabled="disabled" tabindex="24" class="aspNetDisabled" onkeydown="return keyDn(this)" onkeypress="return keyPs(this)" />
+                </td>
+	<td style="background-color: #EEEEEE" class="style1">
+                    Pay Band &amp; Grade Pay
+                </td>
+	<td style="background-color: #EEEEEE">
+                    <select name="ctl00$ContentPlaceHolder1$ddlPayPromotion2" id="ContentPlaceHolder1_ddlPayPromotion2" disabled="disabled" tabindex="26" class="aspNetDisabled">
+		<option selected="selected" value="1">2 - PB 5200-20200 GP 1700</option>
+		<option value="2">3 - PB 5200-20200 GP 1750</option>
+		<option value="3">4 - PB 5200-20200 GP 1900</option>
+		<option value="4">5 - PB 5200-20200 GP 2000</option>
+		<option value="5">9 - PB 5200-20200 GP 2400</option>
+		<option value="6">9A - PB 5200-20200 GP 2400</option>
+		<option value="7">9B - PB 5200-20200 GP 2400</option>
+		<option value="8">10 - PB 5200-20200 GP 2800</option>
+		<option value="9">10A - PB 5200-20200 GP 2800</option>
+		<option value="10">11 - PB 9300-34800 GP 3600</option>
+		<option value="11">12 - PB 9300-34800 GP 4200</option>
+		<option value="12">14 - PB 9300-34800 GP 4800</option>
+		<option value="13">15 - PB 9300-34800 GP 5400</option>
+		<option value="14">15 - PB 15600-39100 GP 5400</option>
+		<option value="15">16 - PB 15600-39100 GP 6000</option>
+		<option value="16">17 - PB 15600-39100 GP 6600</option>
+		<option value="17">18 - PB 15600-39100 GP 6800</option>
+		<option value="18">19 - PB 15600-39100 GP 7200</option>
+		<option value="19">20 - PB 15600-39100 GP 7600</option>
+		<option value="20">21 - PB 15600-39100 GP 8200</option>
+		<option value="21">22 - PB 37400-67000 GP 8700</option>
+		<option value="22">23 - PB 37400-67000 GP 8900</option>
+		<option value="23">23A - PB 37400-67000 GP 9500</option>
+		<option value="24">24 - PB 37400-67000 GP 10000</option>
+
+	</select>
+                </td>
+</tr>
+
+            <tr>
+                <td colspan="4" align="center">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$BtnCalc" value="Calculate" id="ContentPlaceHolder1_BtnCalc" tabindex="27" style="width:100px;" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$BtnReset" value="Reset" id="ContentPlaceHolder1_BtnReset" tabindex="28" style="width:100px;" />
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+    </div>
+    <div align="center">
+        <span id="ContentPlaceHolder1_lblCalculation" style="width: 100%; text-align: center; border:0 auto;"></span>
+        <br /><br />
+        <table style="width:1000px;">
+        <tr>
+        <th>
+            <input type="submit" name="ctl00$ContentPlaceHolder1$BtnGenerate" value="Fixation Statement" id="ContentPlaceHolder1_BtnGenerate" disabled="disabled" tabindex="29" class="aspNetDisabled" style="width:250px;" />
+        &nbsp;&nbsp;&nbsp;
+            <input type="submit" name="ctl00$ContentPlaceHolder1$BtnGenerateDOP" value="A4/2" id="ContentPlaceHolder1_BtnGenerateDOP" disabled="disabled" tabindex="30" class="aspNetDisabled" />
+        &nbsp;&nbsp;&nbsp;
+        <input type="submit" name="ctl00$ContentPlaceHolder1$BtnGenerateDOPB" value="B" id="ContentPlaceHolder1_BtnGenerateDOPB" disabled="disabled" tabindex="31" class="aspNetDisabled" />
+        &nbsp;&nbsp;&nbsp;
+            <input type="submit" name="ctl00$ContentPlaceHolder1$BtnGenerateRev" value="R" id="ContentPlaceHolder1_BtnGenerateRev" disabled="disabled" tabindex="32" class="aspNetDisabled" />
+        </th>
+        <th>
+            <input type="submit" name="ctl00$ContentPlaceHolder1$BtnArrear" value="Generate Salary Arrear" id="ContentPlaceHolder1_BtnArrear" disabled="disabled" tabindex="33" class="aspNetDisabled" style="width:250px;" />
+        </th>
+        </tr>
+        
+        </table>
+        <br /><br />
+        <span id="ContentPlaceHolder1_lblCounter" style="color:White;font-weight: 700">3148568</span>
+    <div>
+
+    </div>
+    </form>
+</body>
+</html>
